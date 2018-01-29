@@ -1,0 +1,33 @@
+html{
+  font-size: 18px;
+}
+
+.logo img{
+  height: 1.5rem;
+}
+ .logo{
+  padding-left: .5rem;
+  text-decoration-color: white;
+  padding-left: 1rem;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+}
+
+header p{
+  padding-left: 1rem;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+}
+
+.site-container{
+  width: 900px;
+  background-color: black;
+  color: White;
+  display: flex;
+  align-items: center;
+}
+
+header{
+  background-color: black;
+  align-items: center;
+}
