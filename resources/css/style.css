@@ -7,8 +7,6 @@ html{
 }
  .logo{
   padding-left: .5rem;
-  text-decoration-color: white;
-  padding-left: 1rem;
   padding-top: .66rem;
   padding-bottom: .66rem;
 }
@@ -20,14 +18,60 @@ header p{
 }
 
 .site-container{
+  margin: 0 auto;
   width: 900px;
-  background-color: black;
-  color: White;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  color: white;
 }
 
 header{
+  background-color: black;
+  color: white;
+}
+
+.moto-background {
+  background-image: url("../img/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.section {
+   position: relative;
+    top: 9rem;
+    width: 20rem;
+    padding: 2rem 3rem;
+    background-color: black;
+    color: white;
+}
+
+.box1 h1{
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.box1 {
+  position: relative;
+  top: 9rem;
+  width: 20rem;
+  padding: 2rem 3rem;
   background-color: black;
+  color: white;
+}
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  padding: 0.75rem 0;
+  background-color: firebrick;
+  color: white;
+  display: flex;
   align-items: center;
+  justify-content: space-between;
 }
